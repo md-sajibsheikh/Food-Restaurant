@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero-text {
+  margin-left: 80px;
+  padding-top: 100px;
+  position: absolute;
+  width: 1012px;
+  height: 391px;
+  bottom: 264px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.hero-text h4,
+.hero-text h2,
+.hero-text p,
+.hero-text a {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 3%;
+  color: #ffff;
+}
+
+.hero-text h4 {
+  width: 274px;
+  height: 38px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 0%;
+}
+
+.hero-text h2 {
+  width: 1000px;
+  height: 160px;
+  margin: 16px 0;
+}
+
+.hero-text p {
+  color: #ffff;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  width: 75%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.hero-text a {
+  width: 282px;
+  height: 65px;
+  padding: 16px;
+  border-radius: 12px;
+  background: rgb(82, 195, 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.box-text {
+  text-align: center;
+  height: 120px;
+}
+.box-text h4 {
+  margin-top: 20px;
+  color: rgb(92, 92, 92);
+}
+
+.box-text h2 {
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 900;
+}
+
+.box-section {
+  margin-top: 40px;
+  width: 96%;
+  display: flex;
+  margin: 0 auto;
+  gap: 30px;
+  justify-content: center;
+}
+.box-section h4,
+h2 {
+  text-align: center;
+}
+.box-section h4 {
+  margin-top: 10px;
+}
+
+.box-section p {
+  color: rgb(87, 87, 87);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.box-section h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: rgba(82, 195, 3, 0.15);
+  padding: 10px;
+  width: 180px;
+  margin-left: 25%;
+  border-radius: 8px;
+}
+
+.card-box-1 h2 {
+  width: 180px;
+  margin-left: 25%;
+}
+.bnt {
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 40px;
+  text-align: center;
+}
+.bnt a {
+  text-decoration: none;
+
+  color: rgb(255, 255, 255);
+
+  padding: 16px;
+  border-radius: 8px;
+
+  background: rgb(82, 195, 3);
+}
