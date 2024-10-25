@@ -151,3 +151,74 @@ h2 {
 
   background: rgb(82, 195, 3);
 }
+/* about */
+
+.about {
+  display: flex;
+  margin-top: 80px;
+}
+
+.about-img{
+  width: 50%;
+}
+
+
+.about-text {
+  /* We always make sure to provide you with good food */
+  position: static;
+  width: 805px;
+  height: 128px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.about-text h5 {
+  color: rgb(87, 87, 87);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+
+.about-text button {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 20px 340px;
+  border: 0cm;
+  width: 800px;
+  cursor:pointer;
+ 
+
+}
+
+.social{
+  margin-top: 10px ;
+}
+.social a{
+color: rgb(131, 131, 131);
+  margin-left: 10px;
+
+}
